@@ -10,6 +10,7 @@ const Hero = (props) => (
         <LeftSection>
             <SectionTitle main center>
                 Weiyao Li
+
             </SectionTitle>
             <SectionText>
                 A first-year Master's student at Columbia University with technical experiences in <br/>
@@ -18,7 +19,7 @@ const Hero = (props) => (
                 and Finance
             </SectionText>
 
-            <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+            <Button><a href='#project' style={{textDecoration: "none", color: "inherit"}}>Learn More</a></Button>
         </LeftSection>
 
     </Section>

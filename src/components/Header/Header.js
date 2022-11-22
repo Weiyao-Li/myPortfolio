@@ -9,23 +9,23 @@ const Header = () => (
     <Container>
         <Div1>
             <Link legacyBehavior href="/">
-                <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom: '20px'}}>
-                    <DiCssdeck size="3rem"/> <Span>WEIYAO LI</Span>
+                <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom: '15px'}}>
+                    <DiCssdeck size="3rem"/> <Span style={{fontSize: '20px'}}>WEIYAO LI</Span>
                 </a>
             </Link>
         </Div1>
         <Div2>
 
-            <Link href="#about">
-                <NavLink>About Me</NavLink>
-            </Link>
-            
             <Link href="#projects">
                 <NavLink>Projects</NavLink>
             </Link>
 
             <Link href="#tech">
                 <NavLink>Technologies</NavLink>
+            </Link>
+
+            <Link href="#about">
+                <NavLink>About</NavLink>
             </Link>
 
         </Div2>
