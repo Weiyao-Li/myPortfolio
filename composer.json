@@ -1,0 +1,20 @@
+{
+    "name": "weiyaoli/portfolio_website",
+    "autoload": {
+        "psr-4": {
+            "Weiyaoli\\PortfolioWebsite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Weiyao-Li",
+            "email": "96925606+Weiyao-Li@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    }
+}
