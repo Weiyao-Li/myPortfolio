@@ -1,52 +1,78 @@
 export const projects = [
     {
-        title: 'MERN Memories',
-        description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-        image: '/images/1.png',
-        tags: ['Mongo', 'Express', 'React', 'Node'],
-        source: 'https://google.com',
-        visit: 'https://google.com',
+        title: "Let's Chat",
+        description: "A full-stack social network web app. Create a profile, leave a comment, and send your Likes to others! ",
+        image: '/images/letschat.jpg',
+        tags: ['MongoDB', 'Express', 'React', 'Node', 'Redux'],
+        source: 'https://github.com/Weiyao-Li/Lets-Chat',
+        visit: 'https://github.com/Weiyao-Li/Lets-Chat',
         id: 0,
     },
     {
-        title: 'E-Commerce',
-        description: "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-        image: '/images/2.png',
-        tags: ['React', 'JavaScript'],
+        title: "Spotify 2.0",
+        description: "An improved version of Spotify with fully-fledged music player, saerch, lyrics, and song exploration features. ",
+        image: '/images/spotify.jpg',
+        tags: ['React', 'Redux', 'Tailwind', 'RapidAPI'],
         source: 'https://google.com',
         visit: 'https://google.com',
         id: 1,
     },
     {
-        title: 'WebRTC App',
-        description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-        image: '/images/3.jpg',
-        tags: ['React', 'WebRTC'],
+        title: 'Web3 NFT Game',
+        description: "Create your characters, join live NFT battles, choose your battleground, and battle other players in real-time!",
+        image: '/images/web3_game.jpg',
+        tags: ['React', 'Solidity', 'Smart Contracts'],
         source: 'https://google.com',
         visit: 'https://google.com',
         id: 2,
     },
     {
-        title: 'Unichat',
-        description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-        image: '/images/4.jpg',
-        tags: ['React', 'ChatEngine', 'Firebase'],
+        title: 'Crypto Uniswap',
+        description: "A decentralized cryptocurrency exchange React application with metamask pairing, live smart contract data fetching, and most importantly, the ability to create your own ERC20 tokens, swap them and more!",
+        image: '/images/uniswap.jpg',
+        tags: ['React', 'Tailwind', 'Cranq'],
         source: 'https://google.com',
         visit: 'https://google.com',
         id: 3,
     },
+
+    {
+        title: 'Labyrinth Escape',
+        description: "A 2D Tile-Based game that controls a character to escape from an auto-generated maze",
+        image: '/images/maze.jpg',
+        tags: ['Java', 'Algorithms'],
+        source: 'https://google.com',
+        visit: 'https://google.com',
+        id: 4,
+    },
+    {
+        title: 'Ants vs. Bees',
+        description: "A tower defense game in Python, where users can place various types of Ants to defeat Bees",
+        image: '/images/avb.jpg',
+        tags: ['Python', 'Algorithms'],
+        source: 'https://google.com',
+        visit: 'https://google.com',
+        id: 5,
+    },
 ];
 
 export const TimeLineData = [
-    {year: 2017, text: 'Started my journey',},
-    {year: 2018, text: 'Worked as a freelance developer',},
-    {year: 2019, text: 'Founded JavaScript Mastery',},
+    // {year: 2017, text: 'Started my journey',},
+    {
+        year: 2018,
+        text: 'Attended Fordham University (Major in Finance, Minor in Math)'
+    },
+    {
+        year: 2019,
+        text: 'Interned at Dalian Commodity Exchange (Trading Intern)'
+    },
+    {year: 2020, text: 'Interned at CITIC Securities (Equity Derivatives Intern)'},
     {
         year: 2021,
-        text: 'Fordham, Fordham Angel Fund, Interned in equity research, investment banking division of several securities',
+        text: 'Interned at China Galaxy Securities (Analytics Intern)'
     },
     {
         year: 2022,
-        text: 'Focused on Software Engineering and attended Columbia University GSAS, majoring in Statistics'
+        text: 'Attended Columbia University GSAS (Major in Statistics)'
     }
 ];

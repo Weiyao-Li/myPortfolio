@@ -14,10 +14,9 @@ const Technologies = () => (
             <ListItem>
                 <DiReact size="3rem"/>
                 <ListContainer>
-                    <ListTitle>Front-End</ListTitle>
+                    <ListTitle>Languages</ListTitle>
                     <ListParagraph>
-                        Experience with <br/>
-                        React.js
+                        Python, Java, HTML/CSS/JavaScript, SQL, C, R, MATLAB
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -25,10 +24,9 @@ const Technologies = () => (
             <ListItem>
                 <DiFirebase size="3rem"/>
                 <ListContainer>
-                    <ListTitle>Back-End</ListTitle>
+                    <ListTitle>Development Tools</ListTitle>
                     <ListParagraph>
-                        Experience with <br/>
-                        Node.js, MongoDB
+                        React.js, Node.js, Express.js, MongoDB, Git, Docker, Bootstrap, AWS, Tableau, GitHub
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -36,11 +34,14 @@ const Technologies = () => (
             <ListItem>
                 <DiPython size="3rem"/>
                 <ListContainer>
-                    <ListTitle>Machine Learning</ListTitle>
+                    <ListTitle>Relevant Courses</ListTitle>
                     <ListParagraph>
-                        Experience with <br/>
-                        Statistical Machine Learning,<br/>
-                        Big Data Analysis
+                        Data Structure and Algorithms, <br/>
+                        Cloud Computing & Big Data,<br/>
+                        Web Programming, <br/>
+                        Databases, Computer Networks,<br/>
+                        Statistical Machine Learning
+
                     </ListParagraph>
                 </ListContainer>
             </ListItem>

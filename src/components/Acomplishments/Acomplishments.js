@@ -4,7 +4,7 @@ import {Section, SectionDivider, SectionTitle} from '../../styles/GlobalComponen
 import {Box, Boxes, BoxNum, BoxText} from './AcomplishmentsStyles';
 
 const data = [
-    {text: 'Pi Mu Epsilon (U.S. honorary national math society'},
+    {text: 'Pi Mu Epsilon (U.S. honorary national math society)'},
     {text: 'Goldman Sachs Insight Series Participant'},
     {text: 'Clorox Case Competition Finalist (2nd)',},
     // {text: 'Github Followers'}
