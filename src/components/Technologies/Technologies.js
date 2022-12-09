@@ -16,7 +16,7 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Languages</ListTitle>
                     <ListParagraph>
-                        Python, Java, HTML/CSS/JavaScript, SQL, C, R, MATLAB
+                        Python, Java, JavaScript, HTML, CSS, SQL, C, R, MATLAB
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -26,7 +26,7 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Development Tools</ListTitle>
                     <ListParagraph>
-                        React.js, Node.js, Express.js, MongoDB, Git, Docker, Bootstrap, AWS, Tableau, GitHub
+                        React, Node, Express, MongoDB, Spring Boot, PostgreSQL, Git, AWS, Bootstrap, GitHub
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
